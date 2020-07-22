@@ -1,9 +1,10 @@
-<app-header></app-header>
+<app-header (onNavClicked)="navClicked($event)"></app-header>
 <div class="container">
   <div class="row">
     <div class="col-md-12">
-      <app-recipes></app-recipes>
-      <app-shopping-list></app-shopping-list>
+      <app-recipes *ngIf='showPage === "recipes"'></app-recipes>
+      <app-shopping-list *ngIf='showPage === "shopping-list"'></app-shopping-list>
+      <!-- OR <app-shopping-list *ngIf='showPage !== "recipes"'></app-shopping-list> -->
     </div>
   </div>
 </div>

@@ -1,0 +1,35 @@
+[33mcommit e28610f7d39fe5b63cb2810f657239c903d33184[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Harold Jennett <haroldjennett@outlook.com>
+Date:   Mon Aug 10 21:23:38 2020 -0400
+
+    Started adding routes
+
+[33mcommit 9075fd1f41ae4c1eb5fda8ba2961410f7dec376a[m
+Author: Harold Jennett <haroldjennett@outlook.com>
+Date:   Wed Aug 5 10:22:49 2020 -0400
+
+    Update with services
+
+[33mcommit 09ecb917254fd16162a54e86aeab732742bcd8ed[m
+Author: Harold Jennett <haroldjennett@outlook.com>
+Date:   Thu Jul 23 12:57:31 2020 -0400
+
+    Added recipe details functionality
+
+[33mcommit 581948fd1988c193352c0c8892756c70795e48f2[m
+Author: Harold Jennett <haroldjennett@outlook.com>
+Date:   Wed Jul 22 19:05:50 2020 -0400
+
+    Starting to bind items
+
+[33mcommit dd9448378fa2e905d56f2588dc1a41fc036af8f2[m
+Author: Harold Jennett <haroldjennett@outlook.com>
+Date:   Tue Jul 14 16:23:50 2020 -0400
+
+    Initial commit
+
+[33mcommit 2373f3233ed26260f4940a0c4e31a3322952a578[m
+Author: Harold Jennett <haroldjennett@outlook.com>
+Date:   Tue Jul 14 12:42:48 2020 -0400
+
+    initial commit

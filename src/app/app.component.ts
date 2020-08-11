@@ -6,9 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  showPage: string = 'recipes';
+  // showPage: string = 'recipes';
 
-  navClicked(whichPage: string){
-    this.showPage = whichPage;
-  }
+  // navClicked(whichPage: string){
+  //   this.showPage = whichPage;
+  // }
 }

@@ -6,7 +6,7 @@ import { Component, Output, EventEmitter } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
-  @Output() onNavClicked = new EventEmitter<string>();
+  // @Output() onNavClicked = new EventEmitter<string>();
   collapsed = true;
 
   // MY SOLUTION recipeClick() {
@@ -16,8 +16,8 @@ export class HeaderComponent {
   //   this.onNavClicked.emit('shopping-list');
   // }
 
-  onSelect(whichPage: string){
-    this.onNavClicked.emit(whichPage);
-  }
+  // onSelect(whichPage: string){
+  //   this.onNavClicked.emit(whichPage);
+  // }
 
 }

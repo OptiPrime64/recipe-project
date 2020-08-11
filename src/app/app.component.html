@@ -1,4 +1,4 @@
-<app-header (onNavClicked)="navClicked($event)"></app-header>
+<!-- <app-header (onNavClicked)="navClicked($event)"></app-header>
 
 <div class="container">
   <div class="row">
@@ -7,6 +7,20 @@
       <app-recipes *ngIf='showPage === "recipes"'></app-recipes>
 
       <app-shopping-list *ngIf='showPage === "shopping-list"'></app-shopping-list>
+      
+      OR <app-shopping-list *ngIf='showPage !== "recipes"'></app-shopping-list>
+
+    </div>
+  </div>
+</div> -->
+
+<app-header></app-header>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+
+   <router-outlet></router-outlet>
       
       <!-- OR <app-shopping-list *ngIf='showPage !== "recipes"'></app-shopping-list> -->
     </div>

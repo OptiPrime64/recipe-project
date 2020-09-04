@@ -20,15 +20,15 @@ export class ShoppingListService {
     return this.ingredients[index];
   }
 
-  onIngrediantAdded(ingredient: Ingredient) {
-    this.ingredients.push(ingredient);
-    this.ingredientsChanged.next(this.ingredients.slice());
-  }
+  // onIngrediantAdded(ingredient: Ingredient) {
+  //   this.ingredients.push(ingredient);
+  //   this.ingredientsChanged.next(this.ingredients.slice());
+  // }
 
-  ingredientsFromDetails(ingredients: Ingredient[]) {
-    this.ingredients.push(...ingredients);
-    this.ingredientsChanged.next(this.ingredients.slice());
-  }
+  // ingredientsFromDetails(ingredients: Ingredient[]) {
+  //   this.ingredients.push(...ingredients);
+  //   this.ingredientsChanged.next(this.ingredients.slice());
+  // }
 
   updateIngredient(newIngredient: Ingredient, index: number) {
     this.ingredients[index] = newIngredient;

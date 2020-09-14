@@ -16,7 +16,7 @@ export class AuthComponent implements OnInit, OnDestroy {
   constructor(private componentFactoryResolver: ComponentFactoryResolver,
     private store: Store<fromApp.AppState>) { }
 
-  isLoginMode = false;
+  isLoginMode = true;
   isLoading = false;
   error: string = null;
   @ViewChild(PlaceholderDirective, { static: false }) alertHost: PlaceholderDirective;
